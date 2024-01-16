@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+
+public class ElectricityDemo {
+
+	public static void main(String[] args) {
+		ElectricityBill I=new ElectricityBill();
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the customer ID=");
+		I.setA(s.next());
+		System.out.println("Enter the customer Name=");
+		I.setB(s.next());
+		System.out.println("Enter the previous reading=");
+		I.setC(s.nextDouble());
+		System.out.println("Enter the current reading=");
+		I.setC(s.nextDouble());
+		System.out.println(I);
+
+	}
+
+}

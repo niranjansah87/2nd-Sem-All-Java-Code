@@ -1,0 +1,18 @@
+package pack7;
+
+import java.util.Scanner;
+
+public class ElectricDemo {
+
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		ElectricBill ebobj = new ElectricBill( );
+		ebobj.setCName(obj.next( ));
+		ebobj.setCNumber(obj.nextInt( ));
+		ebobj.setPReading(obj.nextInt( ));
+		ebobj.setCReading(obj.nextInt( ));
+		System.out.println(ebobj);
+
+	}
+
+}

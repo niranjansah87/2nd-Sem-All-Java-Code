@@ -1,0 +1,30 @@
+package A;
+
+
+public class Complex_Number {
+	private int real;
+	private int img;
+	Complex_Number()
+	{
+			
+	}
+	Complex_Number(int r,int I)
+	{
+	real=r;
+	img=I;	
+	}
+	public static void main(String[] args) {
+		Complex_Number n=new Complex_Number(5,5);
+		System.out.println("Real number is "+n.real);
+		System.out.println("Real number is "+n.img);
+		
+		
+		
+				
+
+		
+
+	}
+	
+
+}

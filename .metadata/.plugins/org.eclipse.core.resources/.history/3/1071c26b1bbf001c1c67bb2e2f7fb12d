@@ -1,0 +1,52 @@
+package p1;
+
+public abstract class Car {
+	abstract String CarColor();
+	abstract String carModel();
+
+}
+class Suzuki extends Car{
+
+	@Override
+	String CarColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String carModel() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}
+class Honda extends Car{
+
+	@Override
+	String CarColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String carModel() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}
+class BMW extends Car{
+
+	@Override
+	String CarColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String carModel() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

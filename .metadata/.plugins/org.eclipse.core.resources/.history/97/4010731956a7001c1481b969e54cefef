@@ -1,0 +1,28 @@
+package A;
+
+import I.TwoDimensionalPoint;
+
+public class Complex_Number {
+	private int real;
+	Complex_Number()
+	{
+		
+	}
+	Complex_Number(int r)
+	{
+	real=r;	
+	}
+	public static void main(String[] args) {
+		Complex_Number n=new Complex_Number(5);
+		System.out.println("Real number is "+n.real);
+		
+		
+		
+				
+
+		
+
+	}
+	
+
+}

@@ -1,0 +1,56 @@
+
+public class ElectricityBill {
+private String cid,cname;
+private double pread,cread;
+public void setA(String Id)
+{
+	cid=Id;
+}
+public void setB(String name)
+{
+	cname=name;
+}
+public void setC(double previous)
+{
+	pread=previous;
+}
+public void setD(double current)
+{
+	cread=current;
+}
+public String getA()
+{
+	return cid;
+}
+public String getB()
+{
+	return cname;
+}
+public double getC()
+{
+	return pread;
+}
+public double getD()
+{
+	return cread ;
+}
+public double bill() 
+{
+	double charge = 0;
+	double diff=cread-pread;
+	if(diff<=100)
+		charge=1;
+		else if(diff>=101 && diff<=200)
+		charge = 2.50;
+		else if(diff>=201 && diff<=500)
+		charge = 5;
+		else
+		charge = 6;
+		return (diff*charge);
+}
+public String toString()
+{
+	String str=String.format("Customer ID:%s%n Customer Name:%s%n Previous reading :%d%n Current reading:%d%n Total bill=%d%n",getA(),getB(),getC(),getD(),bill());
+	return str;
+}
+}

@@ -1,0 +1,5 @@
+package FACTORYDESIGN;
+
+public interface Shape {
+
+}

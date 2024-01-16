@@ -1,0 +1,30 @@
+package Niranjan;
+
+import java.util.Scanner;
+
+public class BMI {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		 String Name[]=new String[2];
+		 int Weight[]=new int[2];
+		 int Height[]=new int[2];
+		 String BMI;
+		for(int i=0;i<2;i++)
+		{
+			Name[i]=s.next();
+			Weight[i]=s.nextInt();
+			Height[i]=s.nextInt();
+		 int BMI= Weight/(Height*Height);
+			
+		}
+		System.out.println("Name="+Name);
+		System.out.println("Weight="+Weight);
+		System.out.println("Height="+Height);
+		System.out.println("BMI="+BMI);
+		
+		
+
+	}
+
+}

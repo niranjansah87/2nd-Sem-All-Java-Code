@@ -1,0 +1,14 @@
+package sem;
+
+public class nameIntDouble {
+	public static void main(String[] args){
+        int a;
+        double b;
+        String str;
+        Scanner q = new Scanner(System.in);
+        a = q.nextInt();
+        b = q.nextDouble();
+        str = q.next();
+        System.out.println("Age is-" +a+ "Weight" +b+ "Name is"+ str);
+	}
+}
